@@ -1,7 +1,7 @@
 # PART 1 - Bedrock
 ## Geyser particle trail.
 ## What this implements
-- customisable Geyser trails.
+- Customisable Geyser trails.
 - Custom implemented texture as proof of understanding
 After hours of trying many different designs, with custom textures and basic ones. I decided a complex particle texture for this use case would not look right.
 I found the best results using a basic square that is colourable via particle settings in snowstorm. I implemented more than 1 individual particles to create a combined particle trail effect arrangement.

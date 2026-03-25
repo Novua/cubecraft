@@ -1,0 +1,34 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "Novua Magma Geyser RP",
+    "description": "Magma geyser particle effect",
+    "uuid": "e02e3c63-a4fe-4ed4-8fbd-88ccbf65ffd1",
+    "version": [
+      1,
+      0,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      20,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "resources",
+      "uuid": "217fb4d2-cd5d-4e92-aae2-1ab961c3789b",
+      "version": [
+        1,
+        0,
+        0
+      ]
+    }
+  ],
+  "metadata": {
+    "authors": [
+      "Novua"
+    ]
+  }
+}

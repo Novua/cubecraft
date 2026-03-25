@@ -1,0 +1,32 @@
+trail:
+  # Render every N ticks (lower = smoother, higher = lighter)
+  periodTicks: 2
+  defaultStyle: helix # helix|orbit|wave
+
+  # Helix math parameters (easy challenge tuning)
+  radius: 0.45
+  frequency: 2.2
+  points: 12
+  step: 0.35
+  phaseStep: 0.30
+  verticalOffset: 1.0
+  verticalStretch: 0.10
+
+  # Movement gating
+  movingOnly: true
+  # Movement stays active for this many ms after position-changing move events.
+  movementTimeoutMs: 200
+
+  # Virtual point-group playback:
+  # points are split by modulo groupSize; each tick frame advances in sequence.
+  groupSize: 3
+  groupFrameDelayTicks: 1
+
+  # Particle appearance
+  particle: END_ROD
+  count: 1
+  offset:
+    x: 0.0
+    y: 0.0
+    z: 0.0
+  extra: 0.0

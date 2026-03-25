@@ -1,0 +1,17 @@
+name: cc_trails
+version: '${version}'
+main: net.novua.cc_trails.Cc_trails
+api-version: '1.21'
+prefix: cc-particles
+authors: [ Novua ]
+description: Basic Paper particle trail challenge plugin.
+
+commands:
+  trail:
+    description: Toggle your flat mathematical particle trail.
+    usage: /trail <on|off|reload|helix|orbit|wave>
+
+permissions:
+  cc_trails.reload:
+    description: Allows reloading the plugin configuration via /trail reload.
+    default: op

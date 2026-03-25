@@ -1,4 +1,15 @@
+# PART 1 - Bedrock
+## Geyser particle trail.
+## What this implements
+- customisable Geyser trails.
+- Custom implemented texture as proof of understanding
+After hours of trying many different designs, with custom textures and basic ones. I decided a complex particle texture for this use case would not look right.
+I found the best results using a basic square that is colourable via particle settings in snowstorm. I implemented more than 1 individual particles to create a combined particle trail effect arrangement.
 
+The particle trail I created was in respect to the projcet of GeyserMC, a pivotal plugin in Minecraft Java -> Bedrock relationships. respecting this by creating a rocky water geyser that follows the player and erupts after a second before slowly fading away.
+
+I already created a full demonstration world with the command blocks setup and preview tracks for easy viewing!
+(Included is also a fire / lava version of the same geyser, more of a volcano geyser)
 
 # PART 2 - Java
 ## cc_trails — Java Edition Bukkit/Paper Particle Trail Submission

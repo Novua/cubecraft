@@ -11,6 +11,25 @@ The particle trail I created was in respect to the projcet of GeyserMC, a pivota
 I already created a full demonstration world with the command blocks setup and preview tracks for easy viewing!
 (Included is also a fire / lava version of the same geyser, more of a volcano geyser)
 
+
+## Manual implementation without demo world
+(Water version)
+- Repeating command block: [/execute as @a at @s run particle novua:hydro_geyser_trail ~ ~ ~] (optional rubble trail)
+- Repeating command block: [/execute as @a at @s run particle novua:hydro_geyser_buildup ~ ~ ~] (Delay In Ticks: 15)
+  - Chain command block: [/execute as @a at @s run particle novua:hydro_geyser_spout ~ ~-0.1 ~] (Always active)
+  - Chain command block: [/execute as @a at @s run particle novua:hydro_geyser_spray ~ ~-0.1 ~] (Always active)
+
+(Fire version)
+- Repeating command block: [/execute as @a at @s run particle novua:magma_geyser_trail ~ ~ ~] (optional rubble trail)
+- Repeating command block: [/execute as @a at @s run particle novua:magma_geyser_buildup ~ ~ ~] (Delay In Ticks: 15)
+  - Chain command block: [/execute as @a at @s run particle novua:magma_geyser_spout ~ ~-0.1 ~] (Always active)
+  - Chain command block: [/execute as @a at @s run particle novua:magma_geyser_spray ~ ~-0.1 ~] (Always active)
+
+<img width="935" height="383" alt="image" src="https://github.com/user-attachments/assets/bc591c4a-dbc4-46f8-a7f2-9ddac4eb96be" />
+
+
+
+
 # PART 2 - Java
 ## cc_trails — Java Edition Bukkit/Paper Particle Trail Submission
 
